@@ -18,22 +18,16 @@ The ICMP datasets listed here were created by PINGing between all of the testbed
 
 For example, 172.16.11.1 would PING the following addresses:
 
-172.16.11.99
-172.16.11.254
-172.16.22.1
-172.16.22.254
-172.16.33.1
-172.16.33.254
-172.16.44.1
-172.16.44.254
+172.16.11.99, 172.16.11.254, 172.16.22.1, 172.16.22.254, 172.16.33.1, 172.16.33.254, 172.16.44.1, 172.16.44.254
+
+Each destination was "PINGed" 5000 times resulting in 5000 ICMP type 8 and 5000 ICMP type 0 messages.
   
-  Each destination was "PINGed" 5000 times resulting in 5000 ICMP type 8 and 5000 ICMP type 0 messages.
+Each dataset has 80000 total samples. Example classes might include IP address and type combinations.
+
+These datasets can also be merged with other datasets in this repository.
   
-  Each dataset has 80000 total samples. Example classes might include IP address and type combinations.
-  
-  These datasets can also be merged with other datasets in this repository.
-  
-  The file name 11-1-correct means that the datasets was verified to include the desired traffic and that it is balanced.
+The file name 11-1-correct means that the datasets was verified to include the desired traffic and that it is balanced.
+
 
 #CITATIONS
 
